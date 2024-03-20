@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    /* background-image: url(./image/WhatsApp\ Image\ 2023-03-19\ at\ 5.51.13\ PM.jpeg); */
+    background-color: #ff0000e0;
+    color:red;
+}   
+.hero-section{
+    color: aqua;
+    background-image: url(./image/bg-for-first.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px 0;
+    height: 90vh;
+}
+.order-card{
+    
+}
+.about-section{
+    font-weight: 500;
+    font-size: larger;
+   background-image: url(./image/bg-for\ veg.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    color: aqua;
+    padding: 100px 0;
+}
+.menu-card{
+    text-align: center;
+    /* display: flex; */
+}
+.menu-card ul{
+    list-style-type: none;
+}
+.non-veg-section{
+    background-image: url(./image/non-veg-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+    padding: 100px 0;
+    font-weight: 500;
+    font-size: larger;
+}
+.fast-food-section{
+    background-image: url(./image/fast.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aqua;
+    padding: 100px 0;
+    font-weight: 500;
+    font-size: larger;
+}
+.booking-section{
+    padding: 100px 0;
+    font-weight: 500;
+    font-size: larger;
+    background: #9d2d2d73;
+}
+.book-table{
+    padding: 20px 40px;
+    background-image: url(./image/table.jpeg);
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+.book-room{
+    padding: 20px 40px;
+    background-image: url(./image/room.jpeg);
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+.book-hotel{
+    padding: 20px 40px;
+    background-image: url(./image/hotel.jpeg);
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+
+@media (max-width:991px) {
+    .book-table form{
+        width: 30rem;
+    }
+    .book-room form{
+        width: 30rem;
+    }
+    .book-hotel form{
+        width: 30rem;
+    }
+   
+    
+}
